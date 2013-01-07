@@ -1,0 +1,659 @@
+<ui version="4.0" >
+ <class>T9InputDlg</class>
+ <widget class="QDialog" name="T9InputDlg" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="font" >
+   <font>
+    <family>Tahoma</family>
+   </font>
+  </property>
+  <property name="windowTitle" >
+   <string>Title</string>
+  </property>
+  <widget class="QLabel" name="lblStatusbar" >
+   <property name="geometry" >
+    <rect>
+     <x>-1</x>
+     <y>229</y>
+     <width>320</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>320</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/bottom.png</pixmap>
+   </property>
+   <property name="scaledContents" >
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblStatusText" >
+   <property name="geometry" >
+    <rect>
+     <x>38</x>
+     <y>220</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblIcon" >
+   <property name="enabled" >
+    <bool>true</bool>
+   </property>
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>24</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/t9-input.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblBackground" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>272</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/bg-inputbox.png</pixmap>
+   </property>
+   <property name="scaledContents" >
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblInputText" >
+   <property name="geometry" >
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>381</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl0" >
+   <property name="geometry" >
+    <rect>
+     <x>15</x>
+     <y>87</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-0.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl1" >
+   <property name="geometry" >
+    <rect>
+     <x>61</x>
+     <y>87</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-1.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl2" >
+   <property name="geometry" >
+    <rect>
+     <x>107</x>
+     <y>87</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl3" >
+   <property name="geometry" >
+    <rect>
+     <x>153</x>
+     <y>87</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-3.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl4" >
+   <property name="geometry" >
+    <rect>
+     <x>199</x>
+     <y>87</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-4.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl5" >
+   <property name="geometry" >
+    <rect>
+     <x>245</x>
+     <y>87</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-5.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl6" >
+   <property name="geometry" >
+    <rect>
+     <x>291</x>
+     <y>87</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-6.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl7" >
+   <property name="geometry" >
+    <rect>
+     <x>337</x>
+     <y>87</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-7.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl8" >
+   <property name="geometry" >
+    <rect>
+     <x>383</x>
+     <y>87</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-8.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl9" >
+   <property name="geometry" >
+    <rect>
+     <x>429</x>
+     <y>87</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-9.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl10" >
+   <property name="geometry" >
+    <rect>
+     <x>37</x>
+     <y>134</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-10.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl11" >
+   <property name="geometry" >
+    <rect>
+     <x>83</x>
+     <y>134</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-11.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl12" >
+   <property name="geometry" >
+    <rect>
+     <x>129</x>
+     <y>134</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-12.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl13" >
+   <property name="geometry" >
+    <rect>
+     <x>175</x>
+     <y>134</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-13.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl14" >
+   <property name="geometry" >
+    <rect>
+     <x>221</x>
+     <y>134</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-14.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl15" >
+   <property name="geometry" >
+    <rect>
+     <x>267</x>
+     <y>134</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-15.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl16" >
+   <property name="geometry" >
+    <rect>
+     <x>313</x>
+     <y>134</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-16.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl17" >
+   <property name="geometry" >
+    <rect>
+     <x>359</x>
+     <y>134</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-17.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl18" >
+   <property name="geometry" >
+    <rect>
+     <x>405</x>
+     <y>134</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-18.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl19" >
+   <property name="geometry" >
+    <rect>
+     <x>84</x>
+     <y>181</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-19.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl20" >
+   <property name="geometry" >
+    <rect>
+     <x>130</x>
+     <y>181</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-20.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl21" >
+   <property name="geometry" >
+    <rect>
+     <x>176</x>
+     <y>181</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-21.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl22" >
+   <property name="geometry" >
+    <rect>
+     <x>222</x>
+     <y>181</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-22.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl23" >
+   <property name="geometry" >
+    <rect>
+     <x>268</x>
+     <y>181</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-23.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl24" >
+   <property name="geometry" >
+    <rect>
+     <x>314</x>
+     <y>181</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-24.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl25" >
+   <property name="geometry" >
+    <rect>
+     <x>360</x>
+     <y>181</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-25.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl26" >
+   <property name="geometry" >
+    <rect>
+     <x>130</x>
+     <y>228</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-26.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl27" >
+   <property name="geometry" >
+    <rect>
+     <x>176</x>
+     <y>228</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-27.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl28" >
+   <property name="geometry" >
+    <rect>
+     <x>222</x>
+     <y>228</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-28.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl29" >
+   <property name="geometry" >
+    <rect>
+     <x>268</x>
+     <y>228</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-29.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl30" >
+   <property name="geometry" >
+    <rect>
+     <x>314</x>
+     <y>228</y>
+     <width>36</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-30.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtName" >
+   <property name="geometry" >
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>290</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="maxLength" >
+    <number>8</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblUp" >
+   <property name="geometry" >
+    <rect>
+     <x>380</x>
+     <y>50</y>
+     <width>29</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-up.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblDown" >
+   <property name="geometry" >
+    <rect>
+     <x>430</x>
+     <y>50</y>
+     <width>29</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="pixmap" >
+    <pixmap resource="../sb3000.qrc" >:/images/res/inputABC-down.png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../sb3000.qrc" />
+ </resources>
+ <connections/>
+</ui>
